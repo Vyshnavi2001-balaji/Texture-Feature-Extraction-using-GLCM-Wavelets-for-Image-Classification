@@ -23,3 +23,9 @@ Implemented on Caltech-101 dataset; retrieval accuracy is evaluated across diffe
 
 <img width="890" height="1304" alt="image" src="https://github.com/user-attachments/assets/6a22553d-4980-4a1b-b12c-54c6e5e12610" />
 
+# PROJECT OUTCOME
+* GLCM texture features showed improved classification accuracy compared to RGB-only methods.
+* Euclidean distance performed best among distance measures (25.99% recognition accuracy).
+* The proposed GLCM method achieved 29% recognition accuracy, competitive with methods by Serrre et al. (35%), Holub et al. (37%), and Berg et al. (45%), and outperforming Ridgelets+GRNN (22%) .
+* Results validate that combining GLCM, Wavelets, and PCA enhances efficiency and recognition accuracy in image retrieval.
+
