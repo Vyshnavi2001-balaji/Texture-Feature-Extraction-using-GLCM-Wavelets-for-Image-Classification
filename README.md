@@ -1,5 +1,5 @@
 # Texture-Feature-Extraction-using-GLCM-Wavelets-for-Image-Classification
-Image Classification using GLCM and Wavelet using MatLab
+Image Classification using GLCM and Wavelet using MATLAB
 
 # PROJECT OVERVIEW
 
@@ -28,4 +28,18 @@ Implemented on Caltech-101 dataset; retrieval accuracy is evaluated across diffe
 * Euclidean distance performed best among distance measures (25.99% recognition accuracy).
 * The proposed GLCM method achieved 29% recognition accuracy, competitive with methods by Serrre et al. (35%), Holub et al. (37%), and Berg et al. (45%), and outperforming Ridgelets+GRNN (22%) .
 * Results validate that combining GLCM, Wavelets, and PCA enhances efficiency and recognition accuracy in image retrieval.
+
+# CONCLUSION
+The study concludes that GLCM + Wavelets + PCA is an effective approach for texture-based image classification in large datasets.
+* Wavelets provide strong feature representation in both time and frequency domains.
+* GLCM effectively captures spatial texture patterns.
+* PCA reduces computational complexity while preserving discriminant features.
+* However, challenges remain in bridging the semantic gap between high-level human perception (color, shape, texture) and low-level machine features.
+
+# FUTURE WORK
+The paper suggests:
+* Exploring fusion of multiple features (color, shape, and texture together).
+* Developing more robust classifiers to improve recognition rates.
+* Addressing the semantic gap in image retrieval systems by combining perceptual and machine-learned features.
+* Applying the proposed approach to real-time applications and large-scale multimedia databases.
 
