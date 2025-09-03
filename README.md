@@ -3,7 +3,10 @@ Image Classification using GLCM and Wavelet using MATLAB
 
 # PROJECT OVERVIEW
 
-The project focuses on image classification in large datasets using texture feature extraction techniques. The study uses the Gray Level Co-occurrence Matrix (GLCM), combined with Discrete Wavelet Transform (DWT) and Principal Component Analysis (PCA), to extract meaningful texture features from images. Classification is carried out using different distance measure techniques, particularly highlighting Euclidean distance. The system is validated on the Caltech-101 dataset, a challenging benchmark with 9,165 images across 101 object categories.
+The project focuses on image classification in large datasets using texture feature extraction techniques. The study uses the Gray Level Co-occurrence Matrix (GLCM), combined with Discrete Wavelet Transform (DWT) and Principal Component Analysis (PCA), to extract meaningful texture features from images. Classification is carried out using various distance measure techniques, with a particular emphasis on Euclidean distance. The system is validated on the Caltech-101 dataset, a challenging benchmark with 9,165 images across 101 object categories.
+
+<img width="1156" height="666" alt="image" src="https://github.com/user-attachments/assets/e7bda33b-6f3c-46f6-91df-e7077b0dc79e" />
+
 
 # PROJECT DESIGN
 
@@ -28,6 +31,9 @@ Implemented on Caltech-101 dataset; retrieval accuracy is evaluated across diffe
 * Euclidean distance performed best among distance measures (25.99% recognition accuracy).
 * The proposed GLCM method achieved 29% recognition accuracy, competitive with methods by Serrre et al. (35%), Holub et al. (37%), and Berg et al. (45%), and outperforming Ridgelets+GRNN (22%) .
 * Results validate that combining GLCM, Wavelets, and PCA enhances efficiency and recognition accuracy in image retrieval.
+
+<img width="1180" height="1192" alt="image" src="https://github.com/user-attachments/assets/cfb4543d-0dc9-40a0-9042-8559bbff100c" />
+
 
 # CONCLUSION
 The study concludes that GLCM + Wavelets + PCA is an effective approach for texture-based image classification in large datasets.
